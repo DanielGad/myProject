@@ -9,4 +9,6 @@ define('FILES_PATH', $root . 'transaction_files' . DIRECTORY_SEPARATOR);
 define('VIEWS_PATH', $root . 'views' . DIRECTORY_SEPARATOR);
 
 /* YOUR CODE (Instructions in README.md) */
-//Another test
+require APP_PATH . "App.php";
+
+getTransactionFiles();

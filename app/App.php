@@ -7,7 +7,9 @@ function getTransactionFiles(): array
 {
     $files = [];
 
-    // Testing testing testing
+    foreach(scandir(FILES_PATH) as $files) {
+        var_dump($file);
+    }
 
 
 }
